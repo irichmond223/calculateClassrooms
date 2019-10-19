@@ -7,9 +7,9 @@ namespace LabTwo
         static void Main(string[] args)
         {
 
-            bool playAgain = true;
-            
             Console.WriteLine("Welcome to Grand Circus’ Room Detail Generator!");
+
+            bool playAgain = true;
 
             while (playAgain)
             {
@@ -28,20 +28,17 @@ namespace LabTwo
                 Console.WriteLine(area);
 
                 Console.WriteLine("Perimeter: ");
-                double perimeter = (lengthNumInput) * 2 + (widthNumInput * 2);
+                double perimeter = (lengthNumInput * 2) + (widthNumInput * 2);
                 Console.WriteLine(perimeter);
 
                 Console.WriteLine("Volume: ");
                 double volume = lengthNumInput * widthNumInput * heightNumInput;
                 Console.WriteLine(volume);
-                
-            
-
-            Console.WriteLine("Continue (y/n): ");
-            string stringUserInput = Console.ReadLine().ToLower();
-            char charUserInput;
 
 
+                Console.WriteLine("Continue (y/n): ");
+                string stringUserInput = Console.ReadLine().ToLower();
+                char charUserInput;
 
 
                 if (char.TryParse(stringUserInput, out charUserInput))
@@ -52,18 +49,27 @@ namespace LabTwo
                         playAgain = true;
 
                     }
+
+                    //else if (charUserInput != 'n' || charUserInput !='N' || charUserInput != 'y' || charUserInput != 'Y')
+                    //{
+                    //    Console.WriteLine($"You entered:{charUserInput}.Try again.");
+                    //    Console.WriteLine("Goodbye.");
+                    //    playAgain = false;
+
+                    //}
+
                     else if (charUserInput == 'n' || charUserInput == 'N')
                     {
                         Console.WriteLine("Goodbye.");
                         playAgain = false;
                     }
-                    else
-                    {
-                        Console.WriteLine($"You entered:{charUserInput}.Try again.");
-                        Console.WriteLine("Goodbye.");
-                        playAgain = false;
 
-                    }
+                }
+                else
+                {
+                    Console.WriteLine($"You entered:{ charUserInput}.Cannot input numbers or words. Try again.");
+                    playAgain = true;
+
                 }
             }
         }
