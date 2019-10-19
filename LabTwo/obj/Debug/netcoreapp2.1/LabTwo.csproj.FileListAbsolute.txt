@@ -1,0 +1,11 @@
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\bin\Debug\netcoreapp2.1\LabTwo.deps.json
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\bin\Debug\netcoreapp2.1\LabTwo.runtimeconfig.json
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\bin\Debug\netcoreapp2.1\LabTwo.runtimeconfig.dev.json
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\bin\Debug\netcoreapp2.1\LabTwo.dll
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\bin\Debug\netcoreapp2.1\LabTwo.pdb
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.csprojAssemblyReference.cache
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.csproj.CoreCompileInputs.cache
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.AssemblyInfoInputs.cache
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.AssemblyInfo.cs
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.dll
+C:\Users\ilona\source\repos\C#\LabTwo\LabTwo\obj\Debug\netcoreapp2.1\LabTwo.pdb
