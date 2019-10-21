@@ -50,13 +50,6 @@ namespace LabTwo
 
                     }
 
-                    //else if (charUserInput != 'n' || charUserInput !='N' || charUserInput != 'y' || charUserInput != 'Y')
-                    //{
-                    //    Console.WriteLine($"You entered:{charUserInput}.Try again.");
-                    //    Console.WriteLine("Goodbye.");
-                    //    playAgain = false;
-
-                    //}
 
                     else if (charUserInput == 'n' || charUserInput == 'N')
                     {
@@ -67,7 +60,7 @@ namespace LabTwo
                 }
                 else
                 {
-                    Console.WriteLine($"You entered:{ charUserInput}.Cannot input numbers or words. Try again.");
+                    Console.WriteLine($"You entered:{stringUserInput}. Cannot input numbers or words. Try again.");
                     playAgain = true;
 
                 }
@@ -75,3 +68,12 @@ namespace LabTwo
         }
     }
 }
+
+
+//else if (charUserInput != 'n' || charUserInput !='N' || charUserInput != 'y' || charUserInput != 'Y')
+//{
+//    Console.WriteLine($"You entered:{charUserInput}.Try again.");
+//    Console.WriteLine("Goodbye.");
+//    playAgain = false;
+
+//}
